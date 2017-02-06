@@ -5,7 +5,7 @@ Easy to use relay mock and unit testing tool (works with Jest &amp; Enzyme)
 
 ## Install
 
-npm install relay-testing-utils
+`npm install relay-testing-utils`
 
 
 ## Getting started
@@ -18,7 +18,7 @@ I recommend to use Jest but you can use any kind of testing library.
 With Jest you can define manual mocks in a `__mocks__` directory.
 Please create `__mocks__/react-relay.js` in your project repository and add the following code.
 
-```
+```javascript
 import relayTestingUtils from 'relay-testing-utils'
 const relay = jest.genMockFromModule('react-relay');
 
@@ -29,7 +29,7 @@ export default relayTestingUtils.relayMock(relay)
 
 #### Test a Relay Container
 
-```
+```javascript
 import relayTestingUtils from 'relay-testing-utils'
 import { mount } from 'enzyme';
 import Example from '../Example';
