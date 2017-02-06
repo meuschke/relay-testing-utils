@@ -1,0 +1,25 @@
+{
+  "name": "relay-testing-utils",
+  "version": "1.0.0",
+  "description": "Easy to use relay mock and unit testing tool (works with Jest & Enzyme)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meuschke/relay-testing-utils.git"
+  },
+  "keywords": [
+    "relay",
+    "testing",
+    "react",
+    "mocking"
+  ],
+  "author": "Toni Meuschke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meuschke/relay-testing-utils/issues"
+  },
+  "homepage": "https://github.com/meuschke/relay-testing-utils#readme"
+}
