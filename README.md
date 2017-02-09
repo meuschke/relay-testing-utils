@@ -62,7 +62,7 @@ const fixtures = {
 
 test('Relay testing wrap', () => {
   const wrapper = mount(
-    relayTestingUtils.wrapRelay(<Example {...fixtures} />)
+    relayTestingUtils.relayWrap(<Example {...fixtures} />)
   );
 });
 
