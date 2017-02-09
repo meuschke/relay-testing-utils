@@ -1,9 +1,7 @@
 import relayMock from './lib/relay-mock'
-import relayWarp from './lib/relay-wrap'
+import relayWrap from './lib/relay-wrap'
 
-
-
-export {
+export default {
   relayMock,
-  relayWarp
+  relayWrap
 }
