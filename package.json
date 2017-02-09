@@ -1,6 +1,6 @@
 {
   "name": "relay-testing-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easy to use relay mock and unit testing tool (works with Jest & Enzyme)",
   "main": "build/index.js",
   "scripts": {
